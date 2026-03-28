@@ -26,7 +26,10 @@ API For Docker 是一个基于多种编程语言的开放 API 平台，免费、
 ###### 统计
 
 
+<img src="https://api.isoyu.com/CloudflareTrafficCard/cf_svg.php?period=7d" width="400" height="40" alt="svg" ><a>
+
 <img src="https://api.isoyu.com/CloudflareTrafficCard/cf_svg.php?period=30d" width="400" height="40" alt="svg" ><a>
+
 
 ---
 ###### [基于TA的作品](https://blog.isoyu.com/inso.html)
