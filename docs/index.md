@@ -39,6 +39,7 @@ features:
   <img src="https://api.isoyu.com/CloudflareTrafficCard/cf_svg.php?period=7d" width="400" height="40" alt="Cloudflare Traffic 7d" style="margin:6px;">
   <img src="https://api.isoyu.com/CloudflareTrafficCard/cf_svg.php?period=30d" width="400" height="40" alt="Cloudflare Traffic 30d" style="margin:6px;">
 </div>
+
 ::: warning 使用须知
 * 姬长信 API 将记录你的域名、使用流量、调用次数等重要信息并存储六个月，如介意请勿使用。[统计信息](https://api.isoyu.com) 管理员邮箱：admin@isoyu.com
 * 姬长信 API 拥有所有运行权，在某些特定情况下有权禁止你的网站调用。
