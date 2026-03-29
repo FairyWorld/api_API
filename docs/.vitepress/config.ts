@@ -1,7 +1,7 @@
 import { defineConfig } from 'vitepress'
 
-// Use a relative base so the site can be deployed under any path (e.g. GitHub Pages project or other hosts)
-const base = './'
+// Use the repository subpath so hashed assets load correctly on nested routes (e.g. /guide/)
+const base = '/API/'
 
 const sidebarItems = [
   { text: 'GY.公益中国:cn:', link: '/guide/公益中国' },
