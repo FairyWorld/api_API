@@ -26,7 +26,7 @@ export default defineConfig({
   lang: 'zh-CN',
   title: '姬长信 API For Docker',
   description: '开放 API 平台，免费、不限调用，覆盖生活常用、出行服务、开发工具、金融服务和公益数据等场景。',
-  base: '/API/',
+  base: '/',
   head: [
     ['link', { rel: 'icon', type: 'image/svg+xml', href: '/vitepress-logo-mini.svg' }],
     ['meta', { name: 'theme-color', content: '#5f67ee' }]
