@@ -41,7 +41,7 @@ features:
 </div>
 
 ::: warning 使用须知
-* 姬长信 API 将记录你的域名、使用流量、调用次数等重要信息并存储六个月，如介意请勿使用。[统计信息]([https://api.isoyu.com](https://api.isoyu.com/guide/#%E7%BB%9F%E8%AE%A1)) 管理员邮箱：admin@isoyu.com
+* 姬长信 API 将记录你的域名、使用流量、调用次数等重要信息并存储六个月，如介意请勿使用。[统计信息](https://api.isoyu.com/guide/#%E7%BB%9F%E8%AE%A1) 管理员邮箱：admin@isoyu.com
 * 姬长信 API 拥有所有运行权，在某些特定情况下有权禁止你的网站调用。
 * **禁止用于违法、商业用途，不接受定制功能性捐助！**
 :::
