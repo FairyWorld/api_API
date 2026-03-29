@@ -12,10 +12,10 @@ hero:
   actions:
     - theme: brand
       text: 接口总览
-      link: /公益中国
+      link: /guide/
     - theme: alt
       text: 快速开始
-      link: /开发杂类
+      link: /guide/开发杂类
     - theme: alt
       text: GitHub
       link: https://github.com/insoxin/API/
