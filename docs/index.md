@@ -30,17 +30,18 @@ features:
   - title: 🛠️ 极致现代化体验
     details: 采用标准 RESTful 风格设计，返回规范友好的 JSON 格式，并支持 Docker 一键部署。
 ---
+## 访问统计
 
+<div style="text-align:center; margin: 20px 0 28px;">
+  <p style="color:var(--vp-c-text-2); font-size:14px; margin-bottom:14px;">
+    最近访问流量概览
+  </p>
+  <img src="https://api.isoyu.com/CloudflareTrafficCard/cf_svg.php?period=7d" width="400" height="40" alt="Cloudflare Traffic 7d" style="margin:6px;">
+  <img src="https://api.isoyu.com/CloudflareTrafficCard/cf_svg.php?period=30d" width="400" height="40" alt="Cloudflare Traffic 30d" style="margin:6px;">
+</div>
 ::: warning 使用须知
 * 姬长信 API 将记录你的域名、使用流量、调用次数等重要信息并存储六个月，如介意请勿使用。[统计信息](https://api.isoyu.com) 管理员邮箱：admin@isoyu.com
 * 姬长信 API 拥有所有运行权，在某些特定情况下有权禁止你的网站调用。
 * **禁止用于违法、商业用途，不接受定制功能性捐助！**
 :::
-<br><br>
 
-###### 统计
-
-<center>
-  <img src="https://api.isoyu.com/CloudflareTrafficCard/cf_svg.php?period=7d" width="400" height="40" alt="Cloudflare Traffic 7d" style="display:inline-block; margin: 10px;">
-  <img src="https://api.isoyu.com/CloudflareTrafficCard/cf_svg.php?period=30d" width="400" height="40" alt="Cloudflare Traffic 30d" style="display:inline-block; margin: 10px;">
-</center>
