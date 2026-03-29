@@ -31,13 +31,13 @@ features:
     details: 采用标准 RESTful 风格设计，返回规范友好的 JSON 格式，并支持 Docker 一键部署。
 ---
 
-<div style="text-align: center; margin: 3rem 0; padding: 1rem; border: 1px solid var(--vp-c-divider); border-radius: 12px; background-color: var(--vp-c-bg-soft); box-shadow: var(--vp-shadow-1);">
-  <h3 style="margin-top: 0; margin-bottom: 1.5rem; letter-spacing: -0.02em; font-size: 1.5rem;">📈 统计信息 </h3>
-  
-  <div style="display: flex; flex-direction: column; align-items: center; gap: 20px;">
-    <img src="https://api.isoyu.com/CloudflareTrafficCard/cf_svg.php?period=7d" width="400" height="40" alt="Cloudflare Traffic 7d" style="border-radius: 8px; box-shadow: 0 2px 4px rgba(0,0,0,0.1);">
-    <img src="https://api.isoyu.com/CloudflareTrafficCard/cf_svg.php?period=30d" width="400" height="40" alt="Cloudflare Traffic 30d" style="border-radius: 8px; box-shadow: 0 2px 4px rgba(0,0,0,0.1);">
-  </div>
+## 📈访问统计
+
+<div style="text-align:center; margin: 20px 0 28px;">
+  <p style="color:var(--vp-c-text-2); font-size:14px; margin-bottom:14px;">
+  </p>
+  <img src="https://api.isoyu.com/CloudflareTrafficCard/cf_svg.php?period=7d" width="400" height="40" alt="Cloudflare Traffic 7d" style="margin:6px;">
+  <img src="https://api.isoyu.com/CloudflareTrafficCard/cf_svg.php?period=30d" width="400" height="40" alt="Cloudflare Traffic 30d" style="margin:6px;">
 </div>
 
 ::: warning 使用须知
