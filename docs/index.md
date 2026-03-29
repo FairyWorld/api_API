@@ -34,7 +34,6 @@ features:
 
 <div style="text-align:center; margin: 20px 0 28px;">
   <p style="color:var(--vp-c-text-2); font-size:14px; margin-bottom:14px;">
-    最近访问流量概览
   </p>
   <img src="https://api.isoyu.com/CloudflareTrafficCard/cf_svg.php?period=7d" width="400" height="40" alt="Cloudflare Traffic 7d" style="margin:6px;">
   <img src="https://api.isoyu.com/CloudflareTrafficCard/cf_svg.php?period=30d" width="400" height="40" alt="Cloudflare Traffic 30d" style="margin:6px;">
