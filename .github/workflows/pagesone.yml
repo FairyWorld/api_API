@@ -2,14 +2,14 @@ name: Build and Deploy to Branch
 
 on:
   push:
-    branches: ['master']
+    branches: ["master"]
   workflow_dispatch:
 
 permissions:
-  contents: write
+  contents: write # 允许向仓库推送代码
 
 jobs:
-  build-and-deploy:
+  build:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
@@ -22,16 +22,15 @@ jobs:
           cache: npm
 
       - name: Install dependencies
-        run: npm ci
+        run: npm install # 使用 install 代替 ci，避免 package-lock 冲突
 
       - name: Build with VitePress
         run: npm run docs:build
-        env:
-          NODE_OPTIONS: --max-old-space-size=4096
 
-      - name: Deploy to gh-pages branch
+      - name: Push to gh-pages branch
         uses: peaceiris/actions-gh-pages@v4
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_branch: gh-pages
           publish_dir: docs/.vitepress/dist
+          publish_branch: gh-pages
+          force_orphan: true
