@@ -1,5 +1,7 @@
 import { defineConfig } from 'vitepress'
 
+const base = '/API/'
+
 const sidebarItems = [
   { text: 'GY.公益中国:cn:', link: '/guide/公益中国' },
   { text: '0. 壁纸模块', link: '/guide/壁纸模块' },
@@ -27,9 +29,9 @@ export default defineConfig({
   title: '姬长信 API For Docker',
   description: '开放 API 平台，免费、不限调用，覆盖生活常用、出行服务、开发工具、金融服务和公益数据等场景。',
   // Use the repository subpath so assets load correctly on GitHub Pages project site
-  base: '/API/',
+  base,
   head: [
-    ['link', { rel: 'icon', type: 'image/svg+xml', href: '/vitepress-logo-mini.svg' }],
+    ['link', { rel: 'icon', type: 'image/svg+xml', href: `${base}vitepress-logo-mini.svg` }],
     ['meta', { name: 'theme-color', content: '#5f67ee' }]
   ],
   ignoreDeadLinks: true,
