@@ -1,7 +1,7 @@
 import { defineConfig } from 'vitepress'
 
 // Use a relative base so the site can be deployed under any path (e.g. GitHub Pages project or other hosts)
-const base = './'
+const base = '/'
 
 const sidebarItems = [
   { text: 'GY.公益中国:cn:', link: '/guide/公益中国' },
