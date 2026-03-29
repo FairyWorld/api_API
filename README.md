@@ -79,3 +79,10 @@ docker run -dit --name api -p 8080:80  --restart unless-stopped insoxin/api:late
 ```
 
 访问 `IP:8080`
+
+## 文档
+
+文档站点基于 VitePress，使用 `npm install` 安装依赖后可以通过下列命令本地预览或构建：
+
+- 开发预览：`npm run docs:dev`
+- 生成静态站点：`npm run docs:build`（产物位于 `docs/.vitepress/dist`）
