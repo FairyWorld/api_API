@@ -27,10 +27,17 @@ export default defineConfig({
   title: '姬长信 API For Docker',
   description: '开放 API 平台，免费、不限调用，覆盖生活常用、出行服务、开发工具、金融服务和公益数据等场景。',
   base: '/API/',
+  head: [
+    ['link', { rel: 'icon', type: 'image/svg+xml', href: '/vitepress-logo-mini.svg' }],
+    ['meta', { name: 'theme-color', content: '#5f67ee' }]
+  ],
   ignoreDeadLinks: true,
   lastUpdated: true,
   themeConfig: {
+    logo: { src: '/vitepress-logo-mini.svg', width: 24, height: 24 },
     nav: [
+      { text: '首页', link: '/' },
+      { text: '接口文档', link: '/公益中国' },
       { text: 'GitHub', link: 'https://github.com/insoxin/API' }
     ],
     sidebar: [
