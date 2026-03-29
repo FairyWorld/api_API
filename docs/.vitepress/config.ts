@@ -1,6 +1,6 @@
 import { defineConfig } from 'vitepress'
 
-// Use a relative base so the site can be deployed under any path (e.g. GitHub Pages project or other hosts)
+// Serve from domain root and emit folder-style pages so /guide/ resolves
 const base = '/'
 
 const sidebarItems = [
@@ -29,8 +29,9 @@ export default defineConfig({
   lang: 'zh-CN',
   title: '姬长信 API For Docker',
   description: '开放 API 平台，免费、不限调用，覆盖生活常用、出行服务、开发工具、金融服务和公益数据等场景。',
-  // Use the repository subpath so assets load correctly on GitHub Pages project site
+  // Serve from domain root (custom domain) and keep asset links absolute
   base,
+  cleanUrls: true,
   head: [
     ['link', { rel: 'icon', type: 'image/svg+xml', href: `${base}vitepress-logo-mini.svg` }],
     ['meta', { name: 'theme-color', content: '#5f67ee' }]
