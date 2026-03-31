@@ -19,7 +19,7 @@ API For Docker 是一个基于多种编程语言的开放 API 平台，免费、
 
 ---
 
-###### 不接受定制功能性捐助！[Who has donated recently?](https://github.com/insoxin/donate/blob/master/HISTORY.md)
+###### [Who has donated recently?](https://github.com/insoxin/donate/blob/master/HISTORY.md)
 
 
 推荐 [Cloudflare](https://www.cloudflare.com/) 全球加速
