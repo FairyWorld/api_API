@@ -22,7 +22,9 @@ const sidebarItems = [
   { text: '14. 实名鉴权', link: '/guide/实名鉴权' },
   { text: '15. 网络信息', link: '/guide/网络信息' },
   { text: '16. 新闻资讯', link: '/guide/新闻资讯' },
-  { text: '17. 知识问答', link: '/guide/知识问答' }
+  { text: '17. 知识问答', link: '/guide/知识问答' },
+  { text: '服务条款', link: '/guide/terms-of-service' },
+  { text: '隐私政策', link: '/guide/privacy-policy' }
 ]
 
 export default defineConfig({
@@ -51,7 +53,11 @@ export default defineConfig({
           text: '接口文档',
           items: sidebarItems
         }
-      ]
+      ],
+    footer: {
+      message: '<a href="/guide/terms-of-service">服务条款 (Terms of Service)</a> | <a href="/guide/privacy-policy">隐私政策 (Privacy Policy)</a>',
+      copyright: 'Copyright © 2017-present 姬长信 API'
+      }
     },
     outlineTitle: '本页目录',
     socialLinks: [
