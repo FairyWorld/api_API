@@ -14,11 +14,12 @@ API For Docker 是一个基于多种编程语言的开放 API 平台，免费、
 
 ---
 
-###### 警告 ⚠️ 禁止用于违法、商业用途。若发现有大批违禁滥用，会针对该功能加上授权码，仅供工信部备案、公安备案用户申请使用。
+###### 警告 ⚠️ 禁止用于违法用途。商业用途需取得授权。若发现有大批违禁滥用，会针对该功能加上授权码，仅供工信部备案、公安备案用户申请使用。
+
 
 ---
 
-###### 不接受定制功能性捐助！[Who has donated recently?](https://github.com/insoxin/donate/blob/master/HISTORY.md)
+###### [Who has donated recently?](https://github.com/insoxin/donate/blob/master/HISTORY.md)
 
 
 推荐 [Cloudflare](https://www.cloudflare.com/) 全球加速
