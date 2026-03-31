@@ -53,7 +53,8 @@ export default defineConfig({
           text: '接口文档',
           items: sidebarItems
         }
-      ],
+      ]
+    },
     footer: {
       message: '<a href="/guide/terms-of-service">服务条款 (Terms of Service)</a> | <a href="/guide/privacy-policy">隐私政策 (Privacy Policy)</a>',
       copyright: 'Copyright © 2017-present 姬长信 API'
